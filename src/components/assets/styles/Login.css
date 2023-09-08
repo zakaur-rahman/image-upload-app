@@ -1,0 +1,22 @@
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  

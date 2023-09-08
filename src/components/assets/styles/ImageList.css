@@ -1,0 +1,30 @@
+.image-list-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-list-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .image-list img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-list li {
+    text-align: center;
+  }
+  
+  

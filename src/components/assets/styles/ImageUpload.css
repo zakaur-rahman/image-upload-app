@@ -1,0 +1,21 @@
+.upload-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .upload-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-container button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .upload-container input[type="file"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
