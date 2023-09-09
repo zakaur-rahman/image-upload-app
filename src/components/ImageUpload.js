@@ -46,11 +46,19 @@ function ImageUpload() {
     } 
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    navigate('/');
+  };
+
   return (
     <div>
       <h1>Image Upload</h1>
       <input type="file" accept="image/*" onChange={handleFileChange} />
       <button onClick={handleUpload}>Upload</button>
+      <div>
+        <button onClick = {handleLogout}>Logout</button>
+      </div>
     </div>
   );
 }
